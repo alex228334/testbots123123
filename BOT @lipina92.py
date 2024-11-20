@@ -13,7 +13,7 @@ from markups import get_support_keyboard, get_change_card_keyboard
 logging.basicConfig(level=logging.INFO)
 
 TOKEN = '7575757667:AAHvxrKDy31-5_qIur_58S1x13x6vae7HVc'
-CHANNEL_ID = '-1002346144227'pip freeze > requirements.txt
+CHANNEL_ID = '-1002346144227'
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
